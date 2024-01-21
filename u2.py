@@ -7,7 +7,7 @@ import streamlit.components.v1 as com
 #---path settings---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV.pdf"
+resume_file = current_dir / "assets" / "legend_atasks.xlsx"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 profile_pic2 = current_dir / "assets" / "Steven.png"
 
